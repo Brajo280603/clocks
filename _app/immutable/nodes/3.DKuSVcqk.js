@@ -1,0 +1,4 @@
+import"../chunks/DsnmJJEf.js";import{p as h,u as c,i as m,j as g,k as f,l as p,m as u,n as o,o as w,q as k,r}from"../chunks/B4oeM9iC.js";import{C as x}from"../chunks/C3nhvayu.js";var v=g(`<main class="h-dvh w-dvw flex justify-center items-center dark:bg-slate-900 bg-slate-300"><a class="size-62 rounded flex flex-col items-center justify-evenly rounded-full transition duration-400
+    dark:bg-slate-800 dark:inset-shadow-slate-500 dark:shadow-slate-950
+    inset-shadow-xs shadow-sm bg-slate-300 inset-shadow-white
+    hover:shadow-lg hover:inset-shadow-sm " href="/clock_with_clocks"><!> <p class="text-lg text-light dark:text-white text-slate-700">clock with clocks</p></a></main>`);function y(n,i){h(i,!0);let t=["┌","|","┘","└","┐","-",""],s=w("");c(()=>{setInterval(()=>{let l=Math.floor(Math.random()*t.length);console.log(l),m(s,t[l],!0)},2e3)});var e=v(),a=o(e),d=o(a);x(d,{Class:"size-16",get angle(){return f(s)}}),k(2),r(a),r(e),p(n,e),u()}export{y as component};
